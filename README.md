@@ -21,4 +21,5 @@ The environment is provided by OpenAI's Gym package (linked below) under the pac
 
 ## Libraries
 The models here were constructed with the help of the OpenAI Gym library.
-- 
+- Gym's Website: https://www.gymlibrary.dev/
+- Gym Installation Instructions: https://pypi.org/project/gym/0.7.4/
