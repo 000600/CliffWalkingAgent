@@ -20,5 +20,5 @@ The model found in the **cliff_qagent.py** file is a basic Q-Learning algorithm,
 The environment is provided by OpenAI's Gym package (linked below) under the package's *Toy Text Environments*. The environment provides a reward of -1 for each time step, with a reward of -100 if the agent walks off of the cliff. The environment stops running when the agent has reached the prize.
 
 ## Libraries
-The models here were constructed with the help of OpenAI Gym:
+The models here were constructed with the help of the OpenAI Gym library.
 - 
