@@ -17,7 +17,7 @@ alpha = 0.1 # Learning rate
 gamma = 0.6 # Value placed on future rewards
 epsilon = 0.4 # Exploration and exploitation tradeoff
 decay = 0.999 # Epsilon decay rate
-epsilon_min = 0.1
+epsilon_min = 0.1 # Minimum epsilon value
 epochs = 300
 
 # Initialize metric lists
@@ -119,7 +119,7 @@ print(f"Model's Average Penalty Over {episodes} Episodes: {test_penalties / epis
 
 # Demonstrate model
 done = False
-env.s = 37
+env.reset()
 
 while done == False:
     # Render model
@@ -130,6 +130,7 @@ while done == False:
     state, reward, done, info = env.step(action) # Take action
     time.sleep(0.1)
 
+# View training metrics
 plt.plot(train_steps, label = "Training Steps")
 plt.plot(train_penalties, label = "Training Penalties")
 plt.xlabel("Epochs")
