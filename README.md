@@ -1,4 +1,4 @@
-# CliffWalkingAgent
+# Cliff Walking Agent
 
 ## The Agents
 There are two agents presented in this repository, one as a sample case (the random agent found in the **cliff_random_agent.py** file) and one as a basic exercise in reinforcement learning (the Q-Agent found in the **cliff_qagent.py** file).
@@ -19,7 +19,7 @@ The model found in the **cliff_qagent.py** file is a basic Q-Learning algorithm,
 Feel free to build or improve upon the model or its hyperparameters!
 
 ## The Environment
-The environment is provided by OpenAI's Gym package (linked below) under the package's *Toy Text Environments*. The environment provides a reward of -1 for each time step, with a reward of -100 if the agent walks off of the cliff. The environment stops running when the agent has reached the prize.
+The environment is provided by OpenAI's Gym package (linked below) under the package's *Toy Text Environments*. It provides a reward of -1 for each time step (to force the agent to be efficient), with a reward of -100 if the agent walks off of the cliff. The environment stops running when the agent has reached the prize.
 
 ## Libraries
 The models here were constructed with the help of the OpenAI Gym library.
